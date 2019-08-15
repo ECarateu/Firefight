@@ -2,7 +2,22 @@
 Aplicação do Firefight com a framework Qt, Arduino, Heroku e Nodemcu/ESP8266.
 Projeto Elaborado para disciplina de Programação Estruturada.
 
-## Sumário:
+# Sumário:
+* O que é o Firefight? 
+* Manual descritivo
+* Como funciona o FireFight?
+* Utilizando a aplicação.
+* Monitorando Sensores
+* Acionando Alarme
+* Acionamento de Carrinho
+* Informações de Utilização
+* Materiais Utilizados
+* Circuito e Montagens
+* Página Web
+* Software QT creator
+
+
+
 
 O **BookShelf** é uma aplicação que ajuda a organizar livros da sua biblioteca pessoal.
 ![Tela inicial do app BookShelf](pic/11.PNG)
