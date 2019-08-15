@@ -29,7 +29,7 @@ Projeto Elaborado para disciplina de Programação Estruturada.
   
 ## Utilização do Software (QT CREATOR)
 ### Tela de Conexão Serial
-![FireFight](pic/77.png)
+![FireFight](pic/77.PNG)
 A tela de início da aplicação do projeto é bastante direta. Primeiro, o usuário deve conectar o seu cabo USB do Arduino em seu computador. Logo em seguida, deve ser selecionada a **porta** na qual a placa está conectada. Para que as informações sejam transmitidas, faz-se necessário ter uma **velocidade** específica (em bauds) para comunicação, sendo  que seja necessário selecionar 115200 (**velocidade  padrão da placa**). Por fim, se a conexão for bem sucedida, um  texto será exibido instantaneamente, avisando ao usuário se o mesmo conseguiu se conectar, caso contrário o usuário deve repetir todo o processo acima citado.
 
 ![Tela Principal da Aplicação](pic/3.png)
