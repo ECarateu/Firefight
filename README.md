@@ -66,7 +66,7 @@ Na segunda Aba **FireFight** é onde estão localizados os botões que acionam o
 ## Circuitos:
 
 ### Circuito de Montagem  Motores e Ponte H:
-![Motores](pic/9.PNG)
+![Motores](pic/9.png)
 
 ### Circuito de Montagem Sensor MQ-2 e Buzzer Sonoro:
 ![Sensor MQ2](pic/7.jpg)
@@ -74,54 +74,16 @@ Na segunda Aba **FireFight** é onde estão localizados os botões que acionam o
 ![Sensor DHT 11](pic/8.png)
 ### Montagem Arduino Com NodeMcu:
 ![Arduino With NodeMcu](pic/10.jpg)
-**OBS: O NodeMcu foi utulizado em substituição da Esp01, todos os códigos de conexão com rede Wifi, se encontra  disponivel no repositorio, é aconselhado que utilize um conversão Digital de Sinal para fazer essa ligação, pórem não é necessário.**
 
 
+**OBS: O NodeMcu foi utulizado em substituição da Esp01, apenas para fazer a conexão Wifi todos os códigos de conexão com a rede , encontram -se disponiveis nesse repositorio, é aconselhado que utilize um conversão Digital de Sinal para fazer essa ligação, pórem não é necessário.**
 
+## Servidor Web
+Esta página web está hospedada gratuitamente no  domonio Heroku e pode ser acessada através do link : http://firefight5.herokuapp.com.
+O Heroku é uma plataforma do tipo cloud que permite o deploy de aplicações para desenvolvedores. Nesse projeto utilizamos HTML e CSS, para poder organizar e interagir  o site com a  ESP8266. Foi utilizada também a biblioteca Flask feita pela comunidade do Python,que foi bastante importante para essa aplicação.
 
+## Desenvolvimento Desktop e Hardware
 
-Voce precisa cadastrar todos os dados sobre seu livro como: nome, nome do autor, numero de páginas...
-Quando terminar de preencher todas informações não se esqueça de clickar no botão **Cadastrar na Estante** , ok?
-
-![Como cadastrar seu livro BookShelf](pic/9.PNG)
-
-*OBS:, Só  são válidas notas de 1 á 10, e nomes com quantidade de letra superior a 2.*
-
-## Tem como ordenar por nota ou nome de livro:
-Seu desejo é uma ordem! Há dois botões na tela principal que possibilitam isso.
-
-## Telinha de Relátorios?
-
-Essa é a parte mais legal do aplicativo! Voce pode administrar e controlar todos os livros da sua estante por:
-* Quantidade de Livros 
-* Quantidade de Livros Lidos
-* Quantidade de Livros Lendo
-* Quantidade de Livros Emprestados
-
-*Isso mesmo! Voce também pode salvar seus livros emprestados, na opção na tela inicial **Emprestados**  *
-
-![Relatorios BookShelf](pic/relatorio.PNG)
-
-## Extra super fantástico?
-
-Temos! No aplicativo há uma aba que voce pode acessar sua biblioteca virtual online, e tambem um site super legal de Livros!
-* Skoob
-* Lelivros
-* **Nosso incrivel manual!** 
-
-![Extra](pic/extra1.PNG)
-![Extra - Skoob](pic/extra2.PNG)
-![Extra - Lelivros](pic/extra3.PNG)
-
-
-## AHH eu quase que me esquecia!
-
-Temos uma aba pata voce salvar seus livros em um arquivo txt!
-![Arquivos](pic/cn.PNG)
-
-
-# Espero que voce goste!
-# BookShelf
-# Boa Leitura
+O software Desktop foi desenvolvido, para o controle do usuario sobre a aplicação, sem acesso a internet.  Aqui, foi utilizado a framework QT creator, a linguagem utilizada foi o C++ . Já no que diz respeito ao Hardware foi utilizado para programação do Arduino e do NodeMCU o Arduino IDE, também programado em liguagem C.
 
 
