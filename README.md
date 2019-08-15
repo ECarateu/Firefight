@@ -22,6 +22,7 @@ Projeto Elaborado para disciplina de Programação Estruturada.
   
   ![Dados SUS](pic/1.png)
   
+    Dado esse cenário,  Sistemas de Detecção e Alarme de incêndio significam a primeira e mais importante informação sobre eventuais sinistros. Estudos mostram que 98% dos sinistros são efetivamente controlados quando combatidos em seu estágio inicial.
 
 
 O **BookShelf** é uma aplicação que ajuda a organizar livros da sua biblioteca pessoal.
