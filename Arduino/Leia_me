@@ -1,0 +1,8 @@
+
+OBS:
+ARQUIVOS ARDUINO (FIRE), É COM CONEXÃO AO SERVIDOR. JÁ O ARDUINO (FIREOFF) É APENAS COM A APLICAÇÃO DO QT.
+
+PARA ATUALIZAÇÃO DESSE CÓDIGO É NECESSÁRIO O DOWNLOAD DAS SEGUINTES BIBLIOTECAS:
+https://github.com/PaulStoffregen/SoftwareSerial (Conexão Serial)
+https://github.com/knolleary/pubsubclient (Conexão Serial)
+https://github.com/adafruit/DHT-sensor-library (Sensor DHT11)
