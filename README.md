@@ -23,23 +23,12 @@ Projeto Elaborado para disciplina de Programação Estruturada.
    Dado esse cenário, sistemas de Detecção e Alarme de incêndio significam a primeira e mais importante informação sobre eventuais sinistros. Estudos mostram que 98% dos sinistros são efetivamente controlados quando combatidos em seu estágio inicial.
    O Firefight é um sistema de detecção de incêndio móvel controlado (robô controlado),  que utiliza  o sensor de Temperatura DHT11 e o sensor de gás inflamável e fumaça MQ-2. Esses  são capazes de  medir temperatura e umidade, e detectar concentrações de gases combustíveis e fumaça no ar, respectivamente.![FireFight](pic/2.jpeg)
    
-
-    Dado esse cenário, sistemas de Detecção e Alarme de incêndio significam 
-    Dado esse cenário,  S
-
-O **BookShelf** é uma aplicação que ajuda a organizar livros da sua biblioteca pessoal.
-![Tela inicial do app BookShelf](pic/11.PNG)
-
-## Algumas funções:
-* Cadastra seus livros conforme dados fornecidos ;
-* Salva Livros que você já leu ;
-* Adiciona Livros que você está lendo ;
-* Atribui informações sobre gênero, nota, etc...
-* Gera algumas estatísticas básicas sobre informações adicionadas ;
-* Extra: Acesso direto a sua biblioteca Online pelo Aplicativo Skoob.
-
-
-## Manual de Utilização
+# Manual Descritivo 
+## Como funciona o projeto?
+  A ideia do projeto é que o usuario possa ter controle da temperatura e nível de fumaça da sua residência ou imóvel de forma remota, e também offline. Para isso, será disponibilizado um site no qual haverá as informações da temperatura e gás, e esse controle poderá ser realizado através de um alarme, o qual é disparado quando os niveis de temperatura e fumaça se tornam nociveis, e o principio de icendio é detectado.Também há um software para que o usuário seja avisado diretamente via desktop, para a possibilidade de uso offline.
+  
+## Utilização do Software
+## Conexão com o Robô
 
 **BookShelf possui um Layout intuitivo, mas vou te ensinar tudinho aqui!** 
 
