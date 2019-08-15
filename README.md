@@ -17,7 +17,8 @@ Projeto Elaborado para disciplina de Programação Estruturada.
 * Software QT creator
 
 # O que é o Firefight? 
-  O Brasil está em terceiro lugar no ranking mundial de mortes por incêndio. A constatação se baseia no cruzamento de dados do Sistema Único de Saúde (SUS) com uma pesquisa realizada pela Geneva Association. Em 2011, o Sistema de Informações sobre Mortalidade do SUS registrou 1.051 mortes por incêndio ou por exposição a fumaça
+  O Brasil está em terceiro lugar no ranking mundial de mortes por incêndio. A constatação se baseia no cruzamento de dados do Sistema Único de Saúde (SUS) com uma pesquisa realizada pela Geneva Association. Em 2011, o Sistema de Informações sobre Mortalidade do SUS registrou 1.051 mortes por incêndio ou por exposição a fumaça.(figuras/1.PNG)
+  
 
 
 O **BookShelf** é uma aplicação que ajuda a organizar livros da sua biblioteca pessoal.
