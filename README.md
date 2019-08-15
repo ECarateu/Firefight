@@ -60,12 +60,30 @@ Na segunda Aba **FireFight** é onde estão localizados os botões que acionam o
 * NodeMCU ESP8266-12
 * Sensor de Temperatura e Umidade DHT11
 * Sensor de Gas MQ-2 
+* Buzzer Sonoro (3V)
+* Jumpers para conexão do circuito
+
+## Circuitos:
+
+### Circuito de Montagem  Motores e Ponte H:
+![Motores](pic/9.PNG)
+
+### Circuito de Montagem Sensor MQ-2 e Buzzer Sonoro:
+![Sensor MQ2](pic/7.jpg)
+### Circuito de Montagem Sensor DHT 11:
+![Sensor DHT 11](pic/8.png)
+### Montagem Arduino Com NodeMcu:
+![Arduino With NodeMcu](pic/10.jpg)
+**OBS: O NodeMcu foi utulizado em substituição da Esp01, todos os códigos de conexão com rede Wifi, se encontra  disponivel no repositorio, é aconselhado que utilize um conversão Digital de Sinal para fazer essa ligação, pórem não é necessário.**
+
+
+
 
 
 Voce precisa cadastrar todos os dados sobre seu livro como: nome, nome do autor, numero de páginas...
 Quando terminar de preencher todas informações não se esqueça de clickar no botão **Cadastrar na Estante** , ok?
 
-![Como cadastrar seu livro BookShelf](pic/caa.PNG)
+![Como cadastrar seu livro BookShelf](pic/9.PNG)
 
 *OBS:, Só  são válidas notas de 1 á 10, e nomes com quantidade de letra superior a 2.*
 
