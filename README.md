@@ -13,6 +13,7 @@ Projeto Elaborado para disciplina de Programação Estruturada.
 * Utilizando o Site
 * Materiais Utilizados
 * Circuito e Montagens
+* NodeMCU e MQTT
 * Página Web
 * Desktop e Hardware
 
@@ -79,6 +80,20 @@ Na segunda Aba **FireFight** é onde estão localizados os botões que acionam o
 
 
 **OBS: O NodeMcu foi utulizado em substituição da Esp01, apenas para fazer a conexão Wifi todos os códigos de conexão com a rede , encontram -se disponiveis nesse repositorio, é aconselhado que utilize um conversão Digital de Sinal para fazer essa ligação, pórem não é necessário.**
+
+## NodeMCU e MQTT
+O MQTT (Message Queue Telemetry Transport) consiste em um protocolo de mensagens leve, criado para comunicação M2M (Machine to Machine). Por exigir muito pouco  de processamento e banda / consumo de Internet, este é um dos protocolos ideais para dispositivos embarcados. E por essa razão foi utilizado nessa aplicação. 
+
+Uma comunicação MQTT é composta das seguintes partes: há **publishers** (quem irá disponibilizar informações), **subscribers** (quem irá receber as informações) e Broker (servidor MQTT, na nuvem / acessível de qualquer lugar do planeta que contenha conexão com a Internet). Teoricamente, não há limite especificado de subscribers e publishers em uma mesma comunicação MQTT, pois o limite nesse aspecto  é do servidor em lidar com as conexões.
+
+Em resumo:  publishers enviam informação para o Broker, subscribers recebem informação do Broker e o Broker gerencia a troca de mensagens com o servidor. Ou seja, o trabalho pesado fica a cargo do Broker, deixando os sistemas embarcados livre.
+*Um esquema básico dessa comunicação pode ser acessado via:* https://1sheeld.com/mqtt-protocol/
+
+**Nesse projeto foi utilizado o protocolo MQTT, mas poderia ser feito de forma mais simples, pois não havia necessidade de tanto processamento, pois os números de sensores e atuadores eram pequenos**
+Todos os códigos referentes a essa comunicação, encontra-sem disponiveis neste repositório. 
+
+*MAIS INFORMAÇÕES SOBRE MQTT PODEM SER ACESSADAS ATRAVÉS  DO SITE OFICIAL:* http://mqtt.org/
+**COMO BASE PARA DESENVOLVIMENTO DESSE TRABALHO FOI UTILIZADO  O PROJETO A SEGUIR:** https://github.com/sankarcheppali/NodeMCUProjects/tree/master/ArduinoWithNodeMCU
 
 ## Servidor Web
 Esta página web está hospedada gratuitamente no  domonio Heroku e pode ser acessada através do link : http://firefight5.herokuapp.com.
