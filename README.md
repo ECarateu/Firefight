@@ -90,9 +90,13 @@ Em resumo:  publishers enviam informação para o Broker, subscribers recebem in
 *Um esquema básico dessa comunicação pode ser acessado via:* https://1sheeld.com/mqtt-protocol/
 
 **Nesse projeto foi utilizado o protocolo MQTT, mas poderia ser feito de forma mais simples, pois não havia necessidade de tanto processamento, pois os números de sensores e atuadores eram pequenos**
+
+
 Todos os códigos referentes a essa comunicação, encontra-sem disponiveis neste repositório. 
 
-*MAIS INFORMAÇÕES SOBRE MQTT PODEM SER ACESSADAS ATRAVÉS  DO SITE OFICIAL:* http://mqtt.org/
+*MAIS INFORMAÇÕES SOBRE MQTT PODEM SER ACESSADAS ATRAVÉS  DO SITE OFICIAL:* http://mqtt.org
+
+
 **COMO BASE PARA DESENVOLVIMENTO DESSE TRABALHO FOI UTILIZADO  O PROJETO A SEGUIR:** https://github.com/sankarcheppali/NodeMCUProjects/tree/master/ArduinoWithNodeMCU
 
 ## Servidor Web
