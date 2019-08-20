@@ -1,0 +1,4 @@
+---------------- INSTRUÇÕES-----------
+
+Vamos empurrar os dados recebidos na linha serial em " / ic / nm / serialdata / uno / " canal / tópico. 
+Você pode visualizar os dados enviados pelo UNO em qualquer cliente MQTT inscrevendo-se no tópico “ / ic / nm / serialdata / uno / .
