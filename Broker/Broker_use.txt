@@ -1,0 +1,12 @@
+
+BROKER UTILIZADO
+
+https://www.cloudmqtt.com/plans.html (PLANO Cute Cat)
+
+Eclipse Paho : https://iot.eclipse.org/getting-started/#sandboxes
+ (host: iot.eclipse.org, port: 1883, é um broker livre e aberto)
+ 
+ 
+ TUTORIAL DE CONFIGURAÇÃO DISPONIVEL  EM : https://icircuit.net/getting-started-with-mqtt-using-nodemcu/745
+ 
+ 
